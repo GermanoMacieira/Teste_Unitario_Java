@@ -51,23 +51,4 @@ public class LocacaoService {
 		
 	}
 
-	
-//	Teste sem utilizar o JUnit
-//  --------------------------	
-//	public static void main(String[] args) {
-//		
-//		//Cenário
-//		LocacaoService service = new LocacaoService();
-//		Usuario usuario = new Usuario("Usuário1");
-//		Filme filme = new Filme("Filme1", 2, 5.0);
-//		
-//		//Ação
-//		Locacao locacao = service.alugarFilme(usuario, filme);
-//		
-//		//Verificação
-//		System.out.println(locacao.getValor() == 5.0);
-//		System.out.println(DataUtils.isMesmaData(locacao.getDataLocacao(), new Date()));
-//		System.out.println(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.obterDataComDiferencaDias(1)));
-//		
-//	}
 }
